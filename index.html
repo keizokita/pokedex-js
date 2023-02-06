@@ -10,24 +10,30 @@
 </head>
 
 <body>
-    <div class="container">
-        <div class="pokedex-body">
-            <img src="img/pokedex.png" alt="" width="660" height="500">
-            <div class="pokemon-content"></div>
+    <main>
+        <img src="" alt="" class="pokemon-image">
+        
+            <div class="pokedex-body">
+                <img src="img/pokedex.png" alt="" width="660" height="500">
+                <div class="pokemon-content"></div>
+            </div>
+
+        <form class="form">
+            <input type="search" class="input-search" placeholder="Search" required>
+        </form>
+
+        <h1 class="pokemon-data">
+            <span class="pokemon-number"></span> -
+            <span class="pokemon-name"></span>
+        </h1>
+
+        <div class="buttons">
+            <button class="button btn-prev">Prev &lt;</button>
+            <button class="button btn-next">Next &gt;</button>
+
         </div>
-    </div>
-
-    <form class="form">
-        <input type="search" class="input_search" placeholder="Name or Number" required>
-    </form>
-
-    <div class="buttons">
-        <button class="button btn-prev">Prev	&lt;</button>
-        <button class="button btn-next">Next 	&gt;</button>
-
-    </div>
-
-    <script src="app.js"></script>
+    </main>
+    <script src="script.js"></script>
 </body>
 
 </html>
